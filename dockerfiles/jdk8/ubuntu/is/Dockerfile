@@ -23,6 +23,9 @@ LABEL maintainer="WSO2 Docker Maintainers <dev@wso2.org>" \
 
 # set Docker image build arguments
 # build arguments for user/group configurations
+RUN \
+      echo "docker iamge is running on jdk8.............................."
+      
 ARG USER=wso2carbon
 ARG USER_ID=802
 ARG USER_GROUP=wso2
